@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+article, aside, figure, footer, header, hgroup, 
+menu, nav, section { display: block; margin: 0; }
+
+body { color: #555; }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+p {
+  padding: 10px 0 0;
+  color: #222;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+img { display: block; }
+
+.wrap {
+  overflow: hidden;
+  width: 840px;
+  margin: 0 auto;
+}
+
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17, 118, 188, 0.5);
+  transition: all .3s linear;
+}
+
+.tint:hover:before { background: none; }
+
+.t2:before { background: rgba(17, 118, 188, 0.5); }
+.t3:before { background: rgba(17, 118, 188, 0.5); }
+.t4:before { background: rgba(17, 118, 188, 0.5); }
+.t5:before { background: rgba(17, 118, 188, 0.5); }
+.t6:before { background: rgba(17, 118, 188, 0.5)); }
+</style></head>
+
+<body>
+
+  <h1>CSS Image Tint</h1>
+  
+  <p>Hover over a photo to see the original (<a href="http://www.impressivewebs.com/?p=4804">Original article</a>)</p>
+  
+  <div class="wrap">
+
+    <figure class="tint">
+      <img src="http://cdn.impressivewebs.com/2011-11/greece001.jpg" alt="" width="400" height="260" />
+    </figure>
+    
+    <figure class="tint t2">
+      <img src="http://cdn.impressivewebs.com/2011-11/greece002.jpg" alt="" width="400" height="260" />
+    </figure>
+    
+    <figure class="tint t3">
+      <img src="http://cdn.impressivewebs.com/2011-11/greece003.jpg" alt="" width="400" height="260" />
+    </figure>
+    
+    <figure class="tint t4">
+      <img src="http://cdn.impressivewebs.com/2011-11/greece004.jpg" alt="" width="400" height="260" />
+    </figure>
+    
+    <figure class="tint t5">
+      <img src="http://cdn.impressivewebs.com/2011-11/greece005.jpg" alt="" width="400" height="260" />
+    </figure>
+    
+    <figure class="tint t6">
+      <img src="http://cdn.impressivewebs.com/2011-11/greece006.jpg" alt="" width="400" height="260" />
+    </figure>
+    
+  </div><!-- .wrap -->
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+
+
+body {
+	font-family: arial;
+	background-color: #033;
+}
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-navigation ul li {
+	display: inline-block;
+	 background: #ff1a8c;
+	position: relative;
+	height: 300px;
+	width: 250px;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.main-navigation ul li a {
+  padding: 54px 30px 12px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  position: relative;
+  z-index: 100;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.main-navigation ul li:hover a {
+  color: #ff1a8c;
+}
+.main-navigation ul li:hover:after {
+  display: block;
+}
+.main-navigation ul li:after {
+  display: none;
+  content: " ";
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  transform: skew(20deg);
+}
+.main-navigation ul li:first-child:before {
+  content: " ";
+  background: #ff1a8c;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  left: 15px;
+  top: 0;
+  z-index: 0;
+}
+/*.main-navigation ul li:first-child:before {
+  content: " ";
+  background: #ff1a8c;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  left: 15px;
+  top: 0;
+  z-index: 0;
+}*/
+.main-navigation ul li:first-child:after {
+  display: block;
+  left: 30px;
+  width: calc(100% - 30px);
+  background: #ff1a8c;
+}
+
+.main-navigation ul li:first-child:hover a {
+  color: #fff;  
+}
+
+
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
+
+<body>
+<div class="main-navigation">
+    <ul>
+  
+      <li class="register"><a href="" target="_blank">sbuject 1</a></li>
+      <li><a href=" ">sbuject 2</a></li><li>
+      <a href=" ">sbuject 3</a></li><li><a href="/sponsorship/">sbuject 4</a></li>
+      <li><a href=" ">sbuject 5</a></li>
+  
+   </ul>
+</div>
+</body>
+</html>
